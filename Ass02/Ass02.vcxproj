@@ -111,6 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dbLib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="processData.cpp" />
+    <ClCompile Include="requestLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dbLib.h" />
+    <ClInclude Include="dsaLib.h" />
+    <ClInclude Include="requestLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
